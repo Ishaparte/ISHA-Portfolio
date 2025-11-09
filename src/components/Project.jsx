@@ -4,6 +4,7 @@ import MedibotLogo from '../assets/logos/logo_medibot.png';
 import Inkly from '../assets/logos/logo_f.png';
 import Travel from '../assets/logos/logo_travel.png';
 import Edunet from '../assets/logos/logo_edunet.png';
+import TeamRaw from '../assets/logos/team_raw.png';
 
 const projects = [
   {
@@ -48,6 +49,17 @@ const projects = [
     Create automated quizzes and assignments using Bedrock to enhance the learning experience.`,
      logo: Edunet,
     github: 'https://github.com/Ishaparte/EduNet-major-project'
+   
+  },
+   {
+    title: 'Team Robotics and Automation Website',
+    date: 'Aug 2024',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    description: `Build a responsive website for the college's Robotics and Automation team to showcase their projects, achievements, and events.
+    The website includes sections for team members, project portfolios, and a blog for updates.
+    Developed using HTML, CSS, and JavaScript to ensure cross-browser compatibility and mobile responsiveness.`,
+     logo: TeamRaw,
+    github: 'https://github.com/Ishaparte/teamRaw-website'
    
   }
 ];
