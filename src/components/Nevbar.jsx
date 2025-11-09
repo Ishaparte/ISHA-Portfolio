@@ -10,8 +10,8 @@ const Navbar = () => {
       <ul className="hidden md:flex gap-8 text-sm font-medium">
         <li><a href="#skills" className="hover:text-blue-300 transition duration-200">Skills</a></li>
         <li><a href="#experience" className="hover:text-blue-300 transition duration-200">Experience</a></li>
-        <li><a href="#mods" className="hover:text-blue-300 transition duration-200">Mods</a></li>
-        <li><a href="#active" className="hover:text-blue-300 transition duration-200">Active</a></li>
+        <li><a href="#projects" className="hover:text-blue-300 transition duration-200">Projects</a></li>
+        <li><a href="#achievements" className="hover:text-blue-300 transition duration-200">Achievements</a></li>
       </ul>
     </nav>
   );

@@ -54,7 +54,7 @@ const projects = [
 
 const Project = () => {
   return (
-    <section id="project" className="py-16 px-6 bg-black text-white">
+    <section id="projects" className="py-16 px-6 bg-black text-white">
       <h2 className="text-3xl font-bold text-center text-purple-400 mb-12 ">Projects</h2>
 
       <div className="max-w-4xl mx-auto relative border-l-2 border-purple-600/50 space-y-12">

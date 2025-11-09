@@ -53,7 +53,7 @@ These experiences helped me grow as a communicator, organizer, and team player.`
 
 const Volunteering = () => {
   return (
-    <section id="volunteering" className="py-16 px-6 bg-black text-white">
+    <section id="achievements" className="py-16 px-6 bg-black text-white">
       <h2 className="text-3xl font-bold text-center text-purple-400 mb-12">Volunteering and Achivements</h2>
 
       <div className="max-w-5xl mx-auto grid gap-16 md:grid-cols-2">
