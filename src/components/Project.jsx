@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
-import Gssc from '../assets/logos/gssc.jpg';
-import Robocon from '../assets/logos/iitdelhi_logo.jpg';
-import Vercel from '../assets/logos/vercel.png';
-import Tectra from '../assets/logos/tectra_technologies_logo.jpg';
+import MedibotLogo from '../assets/logos/logo_medibot.png';
+import Inkly from '../assets/logos/logo_f.png';
+import Travel from '../assets/logos/logo_travel.png';
+import Edunet from '../assets/logos/logo_edunet.png';
 
 const projects = [
   {
@@ -13,38 +13,42 @@ const projects = [
     description: `The Medibot website is designed to showcase the features and functionality of Medibot – a smart healthcare assistant
     
     Awarded First Prize at the Pragati National Level Business Competition.`,
-    logo: Vercel, 
+    logo: MedibotLogo,
     github: 'https://github.com/Ishaparte/medibot-website',
-    vercel: 'https://medibot-website.vercel.app/',
   },
   {
-    title: 'Intern',
-    company: 'Tectra Technologies LLC',
-    date: 'May 2025',
-    location: 'Remote',
-    tags: ['Embedded Systems', 'ESP32', 'C Programming'],
-    description: `Learned about embedded systems and gained hands-on experience with ESP32 and C programming.`,
-    logo: Tectra,
+    title: 'Inkly- Ecommerce Books Website',
+    date: 'Sep 2025',
+    tags: ['React', 'JavaScript', 'Firebase','CSS'],
+    description: `Inkly is an e-commerce website dedicated to selling books online. 
+    Features include user authentication, shopping cart, and secure checkout.
+    Developed using React for the frontend and Firebase for backend services.`,
+    logo: Inkly,
+    github: 'https://github.com/Ishaparte/Inkly',
+    
   },
   {
-    title: 'GSSoC Contributor',
-    company: 'GirlScript Summer of Code',
-    date: 'May 2024 – Aug 2024',
-    location: 'Remote',
-    tags: ['Git', 'JavaScript', 'Open Source'],
-    description: `Participants contribute to real-world projects under the extreme guidance of skilled mentors. 
--Learn by actively engaging with the Open source community. 
--Learn tech stacks like git and javascript.`,
-    logo: Gssc ,
+    title: 'Travel.ai - AI-Powered Travel Assistant',
+    date: 'Oct 2025',
+    tags: ['React', 'JavaScript', 'OpenAI API','CSS','Gemini API'],
+    description: `Travel.ai is an AI-powered travel assistant that helps users plan their trips efficiently. 
+    It provides personalized recommendations for destinations, accommodations, and activities based on user preferences.
+    Built using React for the frontend and integrates OpenAI's GPT-4 and Gemini API for AI functionalities.`,
+    logo: Travel ,
+    github: 'https://github.com/Ishaparte/Travel.ai'
+    
   },
   {
-    title: 'Robocon 2024-25 Finalist',
-    company: 'Robocon India',
-    date: 'Jan 2023 – Jun 2025',
-    location: 'Mumbai, India',
-    tags: ['ESP32', 'Embedded Systems', 'Robotics'],
-    description: `Finalist in the Robocon 2024-25 competition.`,
-    logo: Robocon,
+    title: 'EduNet - Online Learning Platform(serverless backend using AWS)',
+    date: 'Nov 2025',
+    tags: ['AWS', 'React', 'NLP', 'JavaScript'],
+    description: `EduNet is an online learning platform that offers a wide range of courses and educational resources. 
+    It features user authentication, course enrollment, and progress tracking.
+    The backend is built using AWS Lambda and DynamoDB, while the frontend is developed with React.
+    Create automated quizzes and assignments using Bedrock to enhance the learning experience.`,
+     logo: Edunet,
+    github: 'https://github.com/Ishaparte/EduNet-major-project'
+   
   }
 ];
 
