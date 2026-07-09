@@ -3,10 +3,50 @@ import { FaGithub } from 'react-icons/fa';
 import MedibotLogo from '../assets/logos/logo_medibot.png';
 import Inkly from '../assets/logos/logo_f.png';
 import Travel from '../assets/logos/logo_travel.png';
-import Edunet from '../assets/logos/logo_edunet.png';
+import Edunet from '../assets/logos/Edunet-logo.png';
 import TeamRaw from '../assets/logos/team_raw.png';
+import Visionrise from '../assets/logos/Visionrise.png';
+import Healnest from '../assets/logos/thehealnest.png';
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
+   {
+    title: 'EduNet- Online Learning Platform(serverless backend using AWS)',
+    date: 'Nov 2025 - May 2026',
+    tags: ['React', 'JavaScript', 'AWS','Lambda','DynamoDB','Bedrock'],
+    description: `Developed serverless backend using AWS Lambda and API Gateway 
+    It features user authentication, course enrollment, and progress tracking. Implemented AI-driven quiz generation using 
+    AWS Bedrock NLP services 
+    Used a database service like the DynamoDB service of AWS and implemented log monitoring with CloudWatch.. 
+    Built an authentication and course management system using the Coginto service of AWS. `,
+    logo: Edunet,
+    github: 'https://github.com/Ishaparte/EduNet-major-project',
+    link: 'https://d1zl9okbnuek74.cloudfront.net/',
+  },
+  {
+    title: 'VisionRise-LMS',
+    date: 'Dec 2025- April 2026',
+    tags: ['React', 'JavaScript', 'PostgreSQL','Node.js','Express','GCP'],
+    description: ` Built a full-stack Learning Management System from scratch. 
+    Designed scalable backend services using Node.js and Express. 
+    Deployed a complete application on Google Cloud Platform using Compute Engine Service. 
+    Deployed the database using the GCP Cloud SQL service.`,
+    logo: Visionrise,
+    link: 'https://www.risetechnosoft.com/',
+  },
+  {
+    title: 'Healnest-Therapy Booking Platform',
+    date: 'Dec 2025- April 2026',
+    tags: ['React', 'JavaScript', 'MongoDB','Node.js','Express','AWS'],
+    description: `  Developed a full-stack therapy platform enabling users to book counseling sessions and access mental wellness 
+    resources. 
+    Built a responsive frontend using React.js and scalable backend APIs using Node.js, Express.js, and MongoDB. 
+    Implemented secure authentication, session scheduling, and user profile management. 
+    Deployed the application on AWS EC2 and configured the server environment for production deployment.  `,
+    logo: Healnest,
+    github: '',
+    link: 'https://thehealnest.com/',
+  },
   {
     title: 'Medibot Website',
     date: 'April 2025 ',
@@ -39,18 +79,7 @@ const projects = [
     github: 'https://github.com/Ishaparte/Travel.ai'
     
   },
-  {
-    title: 'EduNet - Online Learning Platform(serverless backend using AWS)',
-    date: 'Nov 2025',
-    tags: ['AWS', 'React', 'NLP', 'JavaScript'],
-    description: `EduNet is an online learning platform that offers a wide range of courses and educational resources. 
-    It features user authentication, course enrollment, and progress tracking.
-    The backend is built using AWS Lambda and DynamoDB, while the frontend is developed with React.
-    Create automated quizzes and assignments using Bedrock to enhance the learning experience.`,
-     logo: Edunet,
-    github: 'https://github.com/Ishaparte/EduNet-major-project'
-   
-  },
+
    {
     title: 'Team Robotics and Automation Website',
     date: 'Aug 2024',
@@ -82,11 +111,18 @@ const Project = () => {
             <div className="bg-slate-800 border border-purple-400/30 p-6 rounded-2xl shadow-md">
               <div className="flex justify-between items-start mb-2">
                 <h3 className="text-xl font-semibold text-purple-400">{proj.title}</h3>
+                <div className="flex space-x-4">
                 {proj.github && (
                   <a href={proj.github} target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
                     <FaGithub size={20} />
                   </a>
                 )}
+                {proj.link && (
+                  <a href={proj.link} target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
+                    <FaExternalLinkAlt size={20} className="ml-2" />
+                  </a>
+                )}
+                </div>
               </div>
               <p className="text-sm text-gray-300 mb-2">{proj.date} • {proj.location}</p>
 

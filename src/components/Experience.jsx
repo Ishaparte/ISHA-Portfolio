@@ -4,17 +4,40 @@ import Gssc from '../assets/logos/gssc.jpg';
 import Robocon from '../assets/logos/iitdelhi_logo.jpg';
 import Bhavika from '../assets/logos/bhavika_technology_solutions_logo.jpg';
 import Tectra from '../assets/logos/tectra_technologies_logo.jpg';
+import Visionrise from '../assets/logos/Visionrise.png';
 
 const experiences = [
+  {
+    title: 'Full-Stack Developer Intern',
+    company: 'VisionRise Technosoft Private Limited',
+    date: 'Dec 2025 – April 2026',
+    location: 'Remote',
+    tags: ['React', 'JavaScript', 'MERN', 'Cloud'],
+    description: `Designed and deployed cloud-native full-stack applications on AWS (EC2) and GCP (Compute Engine, Cloud 
+    Run), improving deployment efficiency and scalability. 
+    Built RESTful APIs using Node.js and Express.js, handling high concurrent requests, implementing JWT 
+    authentication, and Role-Based Access Control (RBAC). 
+    Optimized PostgreSQL and MongoDB queries using indexing and performance tuning, reducing API response time 
+    by ~25–30%. 
+    Architected distributed backend services and integrated cloud-managed databases for scalable and fault-tolerant 
+    systems. 
+    Implemented monitoring and logging using AWS CloudWatch and GCP Logging, improving system reliability and 
+    debugging efficiency. 
+    Configured and managed production-grade web servers (Nginx, Apache) for high availability deployments. 
+    Gained hands-on experience with CI/CD pipelines and deployment automation. 
+    Deployed the BARTI, a government application, on the Play Store..`,
+    logo: Visionrise, 
+  },
   {
     title: 'Junior Developer Intern',
     company: 'Bhavika Technology Solutions Private Limited',
     date: 'Aug 2025 – Sep 2025',
     location: 'Remote',
     tags: ['React', 'JavaScript', 'MERN'],
-    description: `Learned React and JavaScript for web development.
-    Developed and documented web applications for clients,
-    and gained hands-on experience with professional development workflows and team collaboration.`,
+    description: ` Developed and maintained MERN stack applications with scalable backend services using Node.js and Express.js. 
+    Integrated cloud services for deployment and storage, enabling reliable and efficient application performance. 
+    Optimized MongoDB queries and schema design, improving data retrieval efficiency. 
+    Collaborated in an Agile development environment, following best practices for version control and code quality.`,
     logo: Bhavika, 
   },
   {
@@ -23,7 +46,10 @@ const experiences = [
     date: 'May 2025',
     location: 'Remote',
     tags: ['Embedded Systems', 'ESP32', 'C Programming'],
-    description: `Learned about embedded systems and gained hands-on experience with ESP32 and C programming.`,
+    description: `Research and Integration of high-accuracy environmental sensors (CO2, PM2.5, NO2, VOCs, etc.) 
+    Prototype assembly, calibration, and initial field testing. 
+    Worked with the ESP32 microcontroller to measure CO2  
+    Collaborating with the engineering team on functional enhancements and verifiable emission data logging.`,
     logo: Tectra,
   },
   {
@@ -33,8 +59,8 @@ const experiences = [
     location: 'Remote',
     tags: ['Git', 'JavaScript', 'Open Source'],
     description: `Participants contribute to real-world projects under the extreme guidance of skilled mentors. 
--Learn by actively engaging with the Open source community. 
--Learn tech stacks like git and javascript.`,
+    Learn by actively engaging with the Open source community. 
+    Learn tech stacks like git and javascript.`,
     logo: Gssc ,
   },
   {
